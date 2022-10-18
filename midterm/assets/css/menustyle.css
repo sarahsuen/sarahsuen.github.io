@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;}
+
+header {
+    /*background-image: transparent url('../img/Asset\ 1.png'); */
+    background: linear-gradient(rgba(134, 109, 81, 0.6), rgba(134, 109, 81, 0.6)), url('../img/Asset\ 1.png') no-repeat 0;
+    position: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+    background-position: 0 0;
+
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* PROBLEM 2: Align the page content to the center of the screen */
+    margin: 0 auto; 
+}
+nav p a {
+    text-decoration: none;
+    color: white;
+}
+nav p {
+    list-style: none;
+    margin: 20px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: space-between;
+
+    display: inline-block;
+    font-weight: lighter;
+    color: white;
+    margin-top: 25px;
+    
+}
+
+nav p:hover {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+.content {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    margin-top: 25px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 75px;
+    
+
+}
+#text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#text h1 {
+    font-size: 42px;
+    font-weight: 500000000000000;
+    font-family: 'JejuMyeongjo';
+    display: flex;
+    justify-content: center; 
+}
+#text h1:hover {
+    cursor: default;
+}
+#text p {
+    list-style: none;
+    font-weight: lighter;
+    line-height: 30px;
+    display: flex;
+    
+    font-family: 'Montserrat';
+    justify-content: space-between;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.first-line {
+    display: flex;
+    justify-content: center;
+}
+.second-line {
+    display: flex;
+    justify-content: center;
+}
+.beef p{
+    font-weight: 500000000000000;
+}
+#text p:hover {
+    cursor: pointer;
+}
+#text .dot p:hover {
+    cursor: default;
+}
+
+
+
+
+.food {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+}
+.food:hover {
+    cursor: default;
+}
+.one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.image-card img {
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+}
+.image-card p {
+    width: 300px;
+}
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+
+}
+.title h3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+
+}
+.title p {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 19px;
+}
+.description p{
+    margin-top: 0px;
+}
+.image-card {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    /*filter: drop-shadow(4px 4px 5px #524b42);*/
+    filter: drop-shadow(0px 0px 0.5px #524b42);
+
+}
+=
+.image-card img {
+    width: 100%;
+    height: 100%;
+}
+
+.rec {
+    background-color: #E7C198;
+    height: 75px;
+    width: auto;
+}
