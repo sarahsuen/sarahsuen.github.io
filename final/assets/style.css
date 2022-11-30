@@ -9,6 +9,7 @@ html {
 body {
     margin: 0;
     overflow-x: hidden;
+
 }
 .embellishments {
     display: flex;
@@ -505,22 +506,17 @@ a {
         margin-right: 10%
     }
     .words h1 {
-        font-size: 15vh;
+        font-size: 10vh;
         font-weight: lighter;
-        margin-
-        
-        bottom: 4vh;
+        margin-bottom: 4vh;
     }
     .words h4 {
-        font-size: 5vh;
+        font-size: 3vh;
         font-weight: lighter;
         margin-top: 5vh;
     }
-    .words {
-        margin-left: 7.5vh;
-        margin-top: 7vh;
-        position: absolute;
-        z-index: -10;
-    
+    #solarsystem {
+        height: 45vh;
+        overflow-x: hidden;
     }
 }
