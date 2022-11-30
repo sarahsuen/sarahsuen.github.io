@@ -187,7 +187,7 @@ a {
     margin-left: 10%;
 }
 .words h1 {
-    font-size: 15vh;
+    font-size: 14vh;
     font-weight: lighter;
     margin-bottom: 4vh;
 }
@@ -198,7 +198,7 @@ a {
 }
 .words {
     margin-left: 7.5vh;
-    margin-top: 7vh;
+    margin-top: 10vh;
     position: absolute;
     z-index: -10;
 
